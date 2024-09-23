@@ -9,8 +9,10 @@ public class Ex27 {
 			System.out.println("Bom Dia!");
 		}else if (str == 'V' || str == 'v'){
 			System.out.println("Boa Tarde!");
+		}else if (str == 'N' || str == 'N'){
+			System.out.println("Boa Tarde!");
 		}else {
-			System.out.println("Boa Noite!");
+			System.out.println("Informe um turno válido");
 		}
 		scan.close();
 	}
